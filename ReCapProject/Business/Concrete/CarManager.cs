@@ -16,10 +16,12 @@ namespace Business.Concrete
     public class CarManager : ICarService
     {
         ICarDal _carDal;
+       
 
         public CarManager(ICarDal carDal)
         {
             _carDal = carDal;
+            
         }
 
         [SecuredOperation("car.add , admin")]
@@ -56,19 +58,24 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(),Messages.CarListed);
         }
 
-        public IDataResult<List<Car>> GetCarsByBrandId(int id)
+        public IDataResult<List<CarDetailDto>> GetCarsByBrandId(int brandId)
         {
-            return new SuccessDataResult<List<Car>>( _carDal.GetAll(p => p.BrandId == id));
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(p => p.BrandId==brandId));
         }
 
-        public IDataResult<List<Car>> GetCarsByColorId(int id)
+        public IDataResult<List<CarDetailDto>> GetCarsByColorId(int colorId)
         {
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.ColorId == id));
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(p => p.ColorId==colorId));
         }
 
-        public IDataResult<List<CarDetailDto>> GetProductDetails()
+        public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
-            return new  SuccessDataResult<List<CarDetailDto>>(_carDal.GetProductDetails());
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails());
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsById(int carId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(p => p.Id == carId));
         }
     }
 }

@@ -60,6 +60,16 @@ namespace DataAccess.Concrete.InMemory
             return carToFind;
         }
 
+        public List<CarDetailDto> GetCarDetails()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<CarDetailDto> GetCarDetails(Expression<Func<CarDetailDto, bool>> filter = null)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<CarDetailDto> GetProductDetails()
         {
             throw new NotImplementedException();

@@ -14,24 +14,34 @@ namespace DataAccess.Concrete.EntitiyFramework
     
     public class EfCarDal : EfEntityRepositoryBase<Car, NorthWindContext>, ICarDal
     {
-        public List<CarDetailDto> GetProductDetails()
+        
+
+        public List<CarDetailDto> GetCarDetails(Expression<Func<CarDetailDto, bool>> filter)
         {
             using (NorthWindContext context = new NorthWindContext())
             {
-                var result = from p in context.Cars
-                             join c in context.Colors 
-                             on p.ColorId equals c.Id
-                             join b in context.Brands
-                             on c.Id equals b.Id
-                             select new CarDetailDto
+                var result = from car in context.Cars
+                             join color in context.Colors
+                             on car.ColorId equals color.Id
+                             join brand in context.Brands 
+                             on car.BrandId equals brand.Id
+                             join ımage in context.CarImages
+                             on car.Id equals ımage.CarId
+                             
+                             select new CarDetailDto()
                              {
-                                Id = p.Id,
-                                BrandName=b.Name,
-                                ColorName=c.Name,
-                                DailyPrice=p.DailyPrice
-                             };
-                return result.ToList();
+                                 Id = car.Id,
+                                 BrandId = brand.Id,
+                                 BrandName = brand.Name,
+                                 ColorId = color.Id,
+                                 ColorName = color.Name,
+                                 DailyPrice = car.DailyPrice,
+                                 Image=ımage.ImagePath
+                              };
+                return filter == null ? result.ToList() : result.Where(filter).ToList();
             }
         }
+
+        
     }
 }
