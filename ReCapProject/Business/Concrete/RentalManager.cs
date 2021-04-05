@@ -76,5 +76,16 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails());
         }
+
+        public IDataResult<List<RentalDetailDto>> GetRentalDetailsById(int id)
+        {
+            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails(r => r.CarId == id));
+        }
+
+       public IDataResult<List<RentalDetailDto>> GetRentalDetailsDateControl(int id, DateTime rentDate)
+        {
+            return new SuccessDataResult<List<RentalDetailDto>>
+                (_rentalDal.GetRentalDetails(r => r.CarId == id && r.RentDate == rentDate));
+        }
     }
 }

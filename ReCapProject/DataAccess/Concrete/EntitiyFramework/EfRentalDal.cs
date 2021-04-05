@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.EntitiyFramework
     {
         
 
-        public List<RentalDetailDto> GetRentalDetails()
+        public List<RentalDetailDto> GetRentalDetails(Expression<Func<RentalDetailDto, bool>> filter = null)
         {
             using (NorthWindContext context = new NorthWindContext())
             {
@@ -30,12 +30,13 @@ namespace DataAccess.Concrete.EntitiyFramework
                              select new RentalDetailDto
                              {
                                  Id = rental.Id,
+                                 CarId = rental.CarId,
                                  BrandName = brand.Name,
                                  Name=user.FirstName+" "+user.LastName,
                                  RentDate=rental.RentDate,
                                  ReturnDate=rental.ReturnDate
                              };
-                return result.ToList();
+                return filter == null ? result.ToList() : result.Where(filter).ToList();
 
             }
         }
