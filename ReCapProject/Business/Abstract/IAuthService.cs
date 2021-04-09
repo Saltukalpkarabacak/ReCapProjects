@@ -5,7 +5,7 @@ using Entities.DTOs;
 using System;
 using System.Text;
 
-namespace Business.Abstract
+namespace Business.Abstract 
 {
 
     public interface IAuthService
