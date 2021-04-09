@@ -14,6 +14,7 @@ namespace DataAccess.Concrete.EntitiyFramework
             optionsBuilder.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=ReCapDb;Trusted_Connection=true");
         }
         public DbSet <Car> Cars { get; set; }
+        public DbSet <Card> Cards { get; set; }
         public DbSet <Brand> Brands { get; set; }
         public DbSet <Color> Colors { get; set; }
         public DbSet <Customer> Customers { get; set; }
