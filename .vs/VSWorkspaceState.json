@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ReCapProject",
+    "\\ReCapProject\\Business",
+    "\\ReCapProject\\Business\\Abstract"
   ],
   "PreviewInSolutionExplorer": false
 }
