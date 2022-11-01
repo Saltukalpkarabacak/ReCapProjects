@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dC1u2IKFuBOUNIE8d4sh+GdobiOne8jzMqKg1F+gtJUeM4XfDpc2HVhiLl4UmsVlhd7sYrZfDbXxeF/RCX4AaQ==",
+  "dgSpecHash": "/TIvdcjZ5hnH3Rgh3rYQy3q2YbVOqF1R8dtItDnTIx/w4K09RW1xtqkVHt0j3mLShGA5ePOx/QjZq2Q/Dn+2SQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saltu\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\saltu\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

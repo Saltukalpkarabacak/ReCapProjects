@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saltu\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
+    "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\saltu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Business\\obj\\",
+        "outputPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Business\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\saltu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -84,25 +89,30 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\saltu\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\saltu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\saltu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,23 +120,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Business\\Business.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj"
               },
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -146,7 +157,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -155,21 +167,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\saltu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\saltu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -177,6 +193,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -240,25 +257,30 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\saltu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\saltu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\saltu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -266,17 +288,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj"
               },
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -308,25 +331,30 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\saltu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\saltu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -334,14 +362,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Core\\Core.csproj"
+              "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Core\\Core.csproj"
               }
             }
           }
@@ -369,11 +398,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

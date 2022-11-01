@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y5DOrJarZgnK+7ma1Ook5ymk/3DQJqeP8X0r3yU7cbPaDa04qGDi8o6C+7YzwmEOiN/RtCOK/9/DCuZWD6tVCw==",
+  "dgSpecHash": "OZCqpE1EE1rg1fYtfxV2vjkVRz0aKi/IuzMViDCUnmgHwfJs7Oy/PRcbuo7Fnt8uFaiQDmYN6eWe7B90rDMgfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\saltu\\source\\repos\\ReCapProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\saltu\\Documents\\GitHub\\ReCapProject\\ReCapProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\saltu\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\saltu\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

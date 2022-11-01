@@ -2,7 +2,8 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\saltu\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\saltu\\.nuget\\packages"
+      "C:\\Users\\saltu\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ]
   }
 }

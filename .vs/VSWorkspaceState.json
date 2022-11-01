@@ -3,7 +3,10 @@
     "",
     "\\ReCapProject",
     "\\ReCapProject\\Business",
-    "\\ReCapProject\\Business\\Abstract"
+    "\\ReCapProject\\Business\\Abstract",
+    "\\ReCapProject\\WebAPI\\bin\\Debug",
+    "\\ReCapProject\\WebAPI\\bin\\Debug\\netcoreapp3.1",
+    "\\ReCapProject\\WebAPI\\Controllers"
   ],
   "PreviewInSolutionExplorer": false
 }
